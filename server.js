@@ -16,5 +16,4 @@ app.get("/provasyscoin", (req, res) => {
   }
 });
 
-app.listen(3000, function() {
-});
+app.listen(3000);
