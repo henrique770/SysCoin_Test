@@ -7,7 +7,7 @@
 
 Desenvolva um serviço web, que utilize a tecnologia `REST`. Hospede esse serviço em qualquer servidor de sua preferência (Heroku, amazon, e etc). 
 
-Pode usar tanto a linguagem PHP quanto `Javascript`. Este serviço web deve esperar uma requisição `GET`, passando-se o seguinte usuário e senha como parâmetros da requisição:
+Pode usar tanto a linguagem `PHP` quanto `Javascript`. Este serviço web deve esperar uma requisição `GET`, passando-se o seguinte usuário e senha como parâmetros da requisição:
 
 ``` 
 user:"syscoin"
@@ -15,7 +15,7 @@ user:"syscoin"
 password:"meEscolhe" 
 ```
 
-A aplicação deve retornar o seguinte JSON caso as credenciais transmitidas estejam corretas:
+A aplicação deve retornar o seguinte `JSON` caso as credenciais transmitidas estejam corretas:
 
 ```json
 {
@@ -28,7 +28,11 @@ Caso as credenciais enviadas estejam erradas, ou a requisição esteja sem parâ
   "mensagem": "Credenciais erradas."
 }
 ```
-
+A `URL` deve seguir o seguinte formato:
+```
+http://xxx/provasyscoin?user="syscoin"&password="meEscolhe"
+```
+Onde `xxx` pode ser um domínio ou um IP.
 
 ## Oque é necessário para rodar
 
