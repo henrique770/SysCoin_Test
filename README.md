@@ -15,14 +15,14 @@ user:"syscoin"
 password:"meEscolhe" 
 ```
 
-A aplicação deve retornar o seguinte `JSON` caso as credenciais transmitidas estejam corretas:
+A aplicação deve retornar o seguinte `JSON` caso as credenciais transmitidas estejam ***corretas***:
 
 ```json
 {
   "mensagem": "Meu nome completo é xxx. Eu quero essa vaga!"
 }
 ```
-Caso as credenciais enviadas estejam erradas, ou a requisição esteja sem parâmetros, retorne a seguinte mensagem:
+Caso as credenciais enviadas estejam ***erradas***, ou a requisição esteja sem parâmetros, retorne a seguinte mensagem:
 ```json
 {
   "mensagem": "Credenciais erradas."
